@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="images/i1.svg" />
-    <link rel="stylesheet" href="style.css" /> 
+    <link rel="stylesheet" href="style.css" />
     <title>Cadastro De Livros</title>
   </head>
 
   <body class="bg-indigo-100">
-    <div class="class="box-border w-32 h-20 p-4 bg-gray-200 border-4 border-gray-400">
+    <div
+      class="box-border p-40 bg-gray-200 border-4 border-gray-400 w-300 h-300"
+    >
+      <label for="name">Nome do Livro:</label><br />
+      <input
+        type="text"
+        id="namef"
+        placeholder="Um sopro de Vida"
+        value=""
+      /><br />
+      <label for="author" id="author">Autor:</label><br />
+      <input
+        type="text"
+        id="authorf"
+        placeholder="Clarice Lispector"
+        value=""
+      /><br />
+      <label for="kind" id="kind">Gênero Literário:</label><br />
+      <input type="text" id="kindf" placeholder="Romance" value="" /><br />
     </div>
   </body>
 </html>
