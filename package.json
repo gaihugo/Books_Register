@@ -1,0 +1,16 @@
+{
+  "name": "livros",
+  "version": "1.0.0",
+  "description": "book register",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Gaiarimm",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "tailwindcss": "^1.9.6"
+  }
+}
